@@ -1,4 +1,31 @@
+function handleCursor(){
+  const shopBody = document?.getElementById("shopBody");
+  if(shopBody.style.display == "none"){
+    console.log("INSIDEEEEEEEEEEEEEEE");
+    
+    document.addEventListener('mousemove', function(e) {
+      const cursorElement = document.getElementById('custom-cursor-1'); 
+          document.body.classList.remove('custom-cursor');
+          cursorElement.style.display = 'none';
+      
+    });
+  }
+  
+}
+
+
+setInterval(() => {
+  handleCursor()
+}, 1000);
+
+
+
+
+
 // handleShopContainer
+
+
+
 const handleShopContainer = () => {
   const shopBody = document?.getElementById("shopBody");
   console.log("shopBody", shopBody);
@@ -18,7 +45,7 @@ const handleShopContainer = () => {
   flex-wrap: wrap;
   justify-content: flex-start
   flex-direction: column !important;
-  width: 400px;
+  width: 420px;
   height: 120%;
   position: absolute;
   top: 15%;
@@ -26,11 +53,64 @@ const handleShopContainer = () => {
   background-color: white;
   padding: 1%;
   z-index:99999;
+  gap: 100px !important
   box-shadow: 10px 10px 50px 3px #cfcfcf;
   transition: width 3s ease-in-out;
- 
-  
+  cursor: auto;
+  // overflow-y: scroll;
   `;
+  if(shopBody.style.display == "none"){
+    console.log("INSIDEEEEEEEEEEEEEEE");
+    
+    document.addEventListener('mousemove', function(e) {
+      const cursorElement = document.getElementById('custom-cursor-1'); 
+          document.body.classList.remove('custom-cursor');
+          cursorElement.style.display = 'none';
+      
+    });
+  }
+  // const customCursor = document?.getElementsByClassName('custom-cursor')
+  // customCursor.style =  `{
+  //   cursor: none;
+  // }`
+
+
+  // const coverEle = document?.getElementById("cover");
+  // coverEle.style=`{
+  //   position: relative;
+  // }`
+  
+  // const customCursor1Ele = document?.getElementById("#custom-cursor-1");
+  // customCursor1Ele.style = `{
+  //   position: absolute;
+  //   pointer-events: none;
+  //   display: none;
+  //   z-index: 1000;
+  //   width: 39px;
+  //   height: 39px;
+  //   transform: translate(-50%, -50%);
+  //   background-color: #fff;
+  //   border: 1px solid gray;
+  //   border-radius: 50%;
+  //   box-sizing: border-box;
+  // }`
+  
+   document.addEventListener('mousemove', function(e) {
+    const cursorElement = document.getElementById('custom-cursor-1');
+    const conditionMet = true; // Replace this with your specific condition
+  
+    if (conditionMet) {
+        // Hide the default cursor and show the custom cursor
+        document.body.classList.add('custom-cursor');
+        cursorElement.style.display = 'block';
+        cursorElement.style.left = e.pageX + 'px';
+        cursorElement.style.top = e.pageY + 'px';
+    } else {
+        // Show the default cursor and hide the custom cursor
+        document.body.classList.remove('custom-cursor');
+        cursorElement.style.display = 'none';
+    }
+  });
 }
 
 
@@ -72,8 +152,25 @@ function handleCategoryBody() {
   box-shadow: 10px 10px 50px 3px #cfcfcf;
   transition: width 3s ease-in-out;
   z-index:99999;
-
+  margin-top:13%
+  transition: width 1s ease-in-out;
   `;
+  document.addEventListener('mousemove', function(e) {
+    const cursorElement = document.getElementById('custom-cursor-1');
+    const conditionMet = true; // Replace this with your specific condition
+  
+    if (conditionMet) {
+        // Hide the default cursor and show the custom cursor
+        document.body.classList.add('custom-cursor');
+        cursorElement.style.display = 'block';
+        cursorElement.style.left = e.pageX + 'px';
+        cursorElement.style.top = e.pageY + 'px';
+    } else {
+        // Show the default cursor and hide the custom cursor
+        document.body.classList.remove('custom-cursor');
+        cursorElement.style.display = 'none';
+    }
+  });
 }
 
 // help
@@ -91,10 +188,10 @@ function handleLongevity() {
   const BundlesEle = document?.getElementById("Single");
   BundlesEle.style = "display:none";
   const shopBody = document?.getElementById("shopBody");
-  shopBody.style = `display: flex;
+  shopBody.style = `
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
+  width: 700px;
   height: 100%;
   position: absolute;
   top: 15%;
@@ -111,12 +208,15 @@ function handleLongevity() {
   EssentialsEle.style = `display: flex;
   flex-direction:row;
   width:60%;
-  margin-left:5%
+  margin-left:5%;
   border-left: 1px solid grey;
-  overflow-y:scroll;
+  margin-top:13%;
+  transition: width 1s ease-in-out;  
   `
 
   const blockELe = document.getElementById("block1");
+
+  
 
 }
 
@@ -130,13 +230,10 @@ function handleSingle() {
   const BundlesEle = document?.getElementById("Single");
   BundlesEle.style = "display:none";
   const shopBody = document?.getElementById("shopBody");
-  shopBody.style = `display: flex;
-  display: flex;
+  shopBody.style = `
+   display: flex;
   flex-wrap: wrap;
-  z-index:99999;
-
-  // flex-direction:row;
-  width: 600px;
+  width: 700px;
   height: 100%;
   position: absolute;
   top: 15%;
@@ -144,16 +241,20 @@ function handleSingle() {
   background-color: white;
   padding: 1%;
   box-shadow: 10px 10px 50px 3px #cfcfcf;
-  transition: width 1s ease-in-out;   
+  transition: width 1s ease-in-out;  
   flex-direction: column !important;
+  z-index:99999;
   `;
   const SingleEle = document?.getElementById("Single");
-  SingleEle.style = `display: flex;
-  flex-direction:column;
-  width:60%;
-  margin-left:5%
+  SingleEle.style = `
+  display: flex;
+  flex-direction:row;
+  width:40%;
+  margin-left:5%;
   border-left: 1px solid grey;
-  overflow-y:scroll;
+  margin-top:13%;
+  transition: width 1s ease-in-out;  
+  overflow-y: auto;
 
   `
 
@@ -172,7 +273,8 @@ function handleDaily() {
   BundlesEle.style = "display:none";
   const shopBody = document?.getElementById("shopBody");
   shopBody.style = `display: flex;
-  width: 600px;
+  // flex-wrap:wrap;
+  width: 700px;
   height: 100%;
   position: absolute;
   top: 15%;
@@ -188,11 +290,14 @@ function handleDaily() {
   const DailyEle = document?.getElementById("Daily");
 
   DailyEle.style = `display: flex;
-  flex-direction:column;
+  flex-direction:row;
   width:60%;
   margin-left:5%
-  border-left: 1px solid grey;
-  overflow-y:scroll;
+  // border-left: 1px solid grey;
+    margin-top:13%;
+  transition: width 1s ease-in-out; 
+      border-left: 1px solid grey; 
+  
   `
 
   const blockELe = document.getElementById("block1");
@@ -213,7 +318,7 @@ function handleBundles() {
   DailyEle.style = "display:none";
   const shopBody = document?.getElementById("shopBody");
   shopBody.style = `display: flex;
-  width: 600px;
+  width: 854;
   height: 100%;
   position: absolute;
   top: 15%;
@@ -227,11 +332,12 @@ function handleBundles() {
   `;
   const BundlesEle = document?.getElementById("Bundle");
   BundlesEle.style = `display: flex;
-  flex-direction:column;
+  flex-direction:row;
   width:60%;
   margin-left:5%
-  border-left: 1px solid grey;
-  overflow-y:scroll;
+   border-left: 1px solid;
+    overflow-x: auto;
+        border-left: 1px solid;
   `
 
   const blockELe = document.getElementById("block1");
@@ -312,6 +418,22 @@ function handleHealthContainer() {
   box-shadow: 10px 10px 50px 3px #cfcfcf;
   transition: width 3s ease-in-out;
   `;
+  document.addEventListener('mousemove', function(e) {
+    const cursorElement = document.getElementById('custom-cursor-1');
+    const conditionMet = true; // Replace this with your specific condition
+  
+    if (conditionMet) {
+        // Hide the default cursor and show the custom cursor
+        document.body.classList.add('custom-cursor');
+        cursorElement.style.display = 'block';
+        cursorElement.style.left = e.pageX + 'px';
+        cursorElement.style.top = e.pageY + 'px';
+    } else {
+        // Show the default cursor and hide the custom cursor
+        document.body.classList.remove('custom-cursor');
+        cursorElement.style.display = 'none';
+    }
+  });
 }
 
 // handleArticleContainer
@@ -343,6 +465,22 @@ padding: 1%;
 box-shadow: 10px 10px 50px 3px #cfcfcf;
 transition: width 3s ease-in-out;
 `;
+document.addEventListener('mousemove', function(e) {
+  const cursorElement = document.getElementById('custom-cursor-1');
+  const conditionMet = true; // Replace this with your specific condition
+
+  if (conditionMet) {
+      // Hide the default cursor and show the custom cursor
+      document.body.classList.add('custom-cursor');
+      cursorElement.style.display = 'block';
+      cursorElement.style.left = e.pageX + 'px';
+      cursorElement.style.top = e.pageY + 'px';
+  } else {
+      // Show the default cursor and hide the custom cursor
+      document.body.classList.remove('custom-cursor');
+      cursorElement.style.display = 'none';
+  }
+});
 }
 
 
@@ -371,6 +509,22 @@ padding: 1%;
 box-shadow: 10px 10px 50px 3px #cfcfcf;
 transition: width 3s ease-in-out;
 `;
+document.addEventListener('mousemove', function(e) {
+  const cursorElement = document.getElementById('custom-cursor-1');
+  const conditionMet = true; // Replace this with your specific condition
+
+  if (conditionMet) {
+      // Hide the default cursor and show the custom cursor
+      document.body.classList.add('custom-cursor');
+      cursorElement.style.display = 'block';
+      cursorElement.style.left = e.pageX + 'px';
+      cursorElement.style.top = e.pageY + 'px';
+  } else {
+      // Show the default cursor and hide the custom cursor
+      document.body.classList.remove('custom-cursor');
+      cursorElement.style.display = 'none';
+  }
+});
 }
 
 
@@ -401,3 +555,32 @@ const slideImage = () => {
     slide.style.transform = `translateX(-${counter * 100}%)`
   })
 }
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   const cursorElement = document.getElementById('custom-cursor-1');
+//   const closeButton = document.getElementById('close-button');
+
+//   function hideCursorPermanently() {
+//       // Hide the default cursor
+//       document.body.classList.add('custom-cursor');
+
+//       // Hide the custom cursor after clicking the "X"
+//       cursorElement.style.display = 'none';
+
+//       // Disable further mouse movement tracking
+//       document.removeEventListener('mousemove', trackMouse);
+//   }
+
+//   function trackMouse(e) {
+//       cursorElement.style.left = e.pageX + 'px';
+//       cursorElement.style.top = e.pageY + 'px';
+//   }
+
+//   closeButton.addEventListener('click', function() {
+//       hideCursorPermanently();
+//   });
+
+//   // Initial tracking of mouse movement to follow the cursor
+//   document.addEventListener('mousemove', trackMouse);
+// });

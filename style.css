@@ -595,7 +595,22 @@ body {
   }
 
 }
+@media (max-width:350px){
+  .card{
+    margin-left: 1%!important;
+    width: 144% !important;
+    
+}
+.border-ft1{
+  width: 144%;
 
+}
+.border-ft2{
+  width: 144%;
+
+}
+  
+}
 
 @media (max-width:600px) {
   body {
@@ -671,6 +686,10 @@ body {
 
   .second-section-main-headline {
     display: block;
+    width: 100% !important;
+    /* height: 10% !important; */
+    /* margin-left: -13px; */
+    margin-bottom: -168px !important;
   }
 
   #missing-out-headline {
@@ -700,7 +719,7 @@ body {
   }
 
   .main-headline-right .txt1 {
-    /* line-height: 1.2; */
+
     font-size: 18px;
   }
 

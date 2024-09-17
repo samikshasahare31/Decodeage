@@ -25,7 +25,7 @@ function handleCursor() {
 
 setInterval(() => {
   handleCursor();
-}, 1000);
+}, 100);
 
 // handleShopContainer
 
@@ -42,6 +42,12 @@ const handleShopContainer = () => {
   AboutEle.style = "display:none";
   const EssentialsEle = document?.getElementById("Essentials");
   EssentialsEle.style = `display:none`;
+  const BundleEle = document?.getElementById("Bundle");
+  BundleEle.style = `display:none`;
+  const DailyEle = document?.getElementById("Daily");
+  DailyEle.style = `display:none`;
+  const SingleEle = document?.getElementById("Single");
+  SingleEle.style = `display:none`;
 
   shopBody.style.display === "flex"
     ? (shopBody.style = "display:none")
@@ -107,6 +113,9 @@ function closeSidebar(id, cover) {
 function handleCategoryBody() {
   const categoryBody = document?.getElementById("CategoryBody");
   console.log("categoryBody", categoryBody);
+  const shopBody = document?.getElementById("shopBody");
+  shopBody.style = `display:none`;
+
   const EssentialsEle = document?.getElementById("Essentials");
   EssentialsEle.style = `display:none`;
   categoryBody.style.display === "flex"
@@ -156,7 +165,7 @@ function handleLongevity() {
   SingleEle.style = "display:none";
   const DailyEle = document?.getElementById("Daily");
   DailyEle.style = "display:none";
-  const BundlesEle = document?.getElementById("Single");
+  const BundlesEle = document?.getElementById("Bundle");
   BundlesEle.style = "display:none";
   const shopBody = document?.getElementById("shopBody");
   shopBody.style = `
@@ -195,7 +204,7 @@ function handleSingle() {
   EssentialsEle.style = "display:none";
   const DailyEle = document?.getElementById("Daily");
   DailyEle.style = "display:none";
-  const BundlesEle = document?.getElementById("Single");
+  const BundlesEle = document?.getElementById("Bundle");
   BundlesEle.style = "display:none";
   const shopBody = document?.getElementById("shopBody");
   shopBody.style = `

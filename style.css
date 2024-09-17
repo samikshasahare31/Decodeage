@@ -406,7 +406,7 @@ body {
 }
 
 .card-box {
-  min-width: 320px;
+  min-width:  407px;
   min-height: 450px;
   border-radius: 4%;
   margin: 2%;
@@ -734,7 +734,7 @@ body {
 
   .card-box {
     margin-right: 10px;
-    min-width: 233px;
+    min-width: 407px;
     padding: 0px;
     display: flex;
     flex-direction: column;

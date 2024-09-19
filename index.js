@@ -23,6 +23,24 @@ function handleCursor() {
   }
 }
 
+const wrapperBoby = document?.getElementById("wrapper");
+wrapperBoby.addEventListener("click", function (e) {
+  console.log("clickclickclickclickclickclickclick");
+  const shopBody = document?.getElementById("shopBody");
+  const CategoryEle = document?.getElementById("CategoryBody");
+  const HealthEle = document?.getElementById("HealthBody");
+  const ArticleEle = document?.getElementById("ArticleBody");
+  const AboutEle = document?.getElementById("AboutBody");
+  if (!shopBody.contains(e.target) || !CategoryEle.contains(e.target) || !HealthEle.contains(e.target) || !ArticleEle.contains(e.target) || !AboutEle.contains(e.target)) {
+    shopBody.style.display = "none";
+    CategoryEle.style.display = "none";
+    HealthEle.style.display = "none";
+    ArticleEle.style.display = "none";
+    AboutEle.style.display = "none";
+  }
+});
+
+
 setInterval(() => {
   handleCursor();
 }, 100);
@@ -561,3 +579,23 @@ const slideImage = () => {
     slide.style.transform = `translateX(-${counter * 100}%)`;
   });
 };
+
+
+
+var emailInput = document.getElementById('email-field');
+var emailLabel = document.getElementById('Email-label');
+var emailError = document.getElementById('email-error');
+
+function handleEmail() {
+  emailLabel.style.bottom = '45px';
+  emailLabel.style.fontSize = '12px';
+
+  if (
+    !emailInput.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)
+  ) {
+    emailError.innerHTML = 'Please enter a valid email';
+    return false;
+  }
+  emailError.innerHTML = '';
+  return true;
+}

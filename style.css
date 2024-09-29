@@ -469,294 +469,7 @@ main {
 }
 /* ----------------------------------------------------------- */
 /*  media */
-@media (max-width: 700px) and (min-width:600px) {
-  .Clinical-section {
-    width:170%;
-    min-height: 490px;
-  }
-  .Clinical-section .clinical-email input {
-    width: 76%;
-    margin-bottom: 18px;
-  }
-  .Clinical-section .clinical-email button {
-    width: 76%;
-    margin-left: -26px;
-  }
-  .container {
-    margin: 20px;
-    margin-top: 30px;
-  }
-  .container111 .Effect-section {
-    margin-left: -52px !important;
-    width: 104% !important;
-  }
 
-  .Effect-section-main-headline {
-    display: block;
-    width: 80% !important;
-  }
-
-  .main-img {
-    width: 100% !important;
-    border-top-right-radius: 10px;
-  }
-  .main-headline-left {
-    min-height: 150px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0px;
-  }
-  .main-headline-right {
-    padding: 5%;
-    width: 100%;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 10px;
-    margin-bottom: 35px;
-  }
-  .middle-section {
-    display: block;
-    margin-top: 128px;
-    margin-left: 5%;
-  }
-
-  .middle-img-safety {
-    width: 192% !important;
-  }
-  .middle-section-h1 {
-    width: 182% !important;
-    font-size: 26px;
-  }
-  .txt3 {
-    width: 180%;
-    font-size: 17px;
-  }
-  .txt4 {
-    font-size: 17px !important;
-  }
-  .middle-img-Impact {
-    width: 192%;
-  }
-  .middle-section-h1 {
-    width: 182% !important;
-    font-size: 26px;
-  }
-  #missing-out-headline {
-    font-size: 37px;
-    width: 121%;
-  }
-  .slider {
-    width: 100%;
-  }
-  .slider .product {
-    min-width: 205px;
-  }
-  .SLIDER_CONTAINER {
-    margin-left: 10%;
-    width: 109%;
-  }
-  .gonextBtn {
-    margin-right: 48% !important;
-  }
-  .ft-sign {
-    width: 85%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-  }
-  .input-email {
-    max-width: 688px;
-  }
-  .social {
-    margin-left: 171px;
-
-    font-size: 31px;
-  }
-  .sign-h2 {
-    font-size: 47px;
-    margin-left: -43px;
-    width: 153%;
-    display: flex;
-    justify-content: center !important;
-  }
-
-  .Email-container {
-    width: 100%;
-  }
-  .input-email {
-    width: 222%;
-  }
-  .footer-bottom {
-    width: 129% !important;
-  }
-  .ft-bt-text {
-    font-size: 9px !important;
-  }
-  .ft-p1 {
-    font-size: 9px !important;
-  }
-  .ft-p2 {
-    font-size: 9px !important;
-  }
-  .CONTAINER {
-    padding: 10px !important;
-    width: 166% !important;
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-    grid-template-rows: 210px 1px 200px;
-  }
-  .footer-img{
-    grid-row: 1 / span 2 !important;
-  }
-  #Effect-section {
-    width: 140% !important;
-  }
-  .container111 {
-    width: 122%;
-    width: 125%;
-    margin-left: -27px;
-   
-  }
-  .ft-bottom {
-    font-size: 9px !important;
-    width: 133% !important;
-  }
-  .img-ft {
-    grid-row: 1 / span 3;
-  }
-  .ft-Age {
-    width: 100%;
-  }
-}
-
-@media (min-width: 300px)and (max-width:590px) {
-  .Clinical-section {
-    width: 395% !important;
-  }
-  .container111 {
-    width: 371% !important;
-  }
-  .input-email {
-    max-width: 1193px !important;
-  }
-  #missing-out-headline {
-    width: 402% !important;
-  }
-  .SLIDER_CONTAINER {
-    width: 361%;
-  }
-  .product {
-    min-width: 1002px !important;
-  }
-  .gonextBtn {
-    margin-right: 17% !important;
-  }
-
-  .ft-sign {
-    width: 242% !important;
-  }
-  .CONTAINER {
-    display: grid !important;
-        height: 67vh !important;
-        grid-template-columns: repeat(3, 1fr) !important;
-        grid-template-rows: 100px 200px 200px !important;
-        grid-gap: 129px !important;
-        width: 150vh!important;
-  }
-  .footer-bottom {
-    width: 374% !important;
-  }
-  .middle-img1 {
-    width: 588px !important;
-  }
-  .middle-img2 {
-    width: 588px !important;
-  }
-  .Effect-section-main-headline{
-margin-bottom: -33px !important;
-  }
-  .middle-section{
-    width: 150vh;
-  }
-}
-
-@media (max-width: 400px) {
-  .Clinical-section {
-    width: 395% !important;
-  }
-  .container111 {
-    width: 371% !important;
-  }
-  .main-headline-right {
-    font-size: 100px !important;
-  }
-  .txt1 {
-    font-size: 30px !important;
-  }
-  .txt2 {
-    font-size: 29px !important;
-  }
-  #missing-out-headline {
-    width: 402% !important;
-  }
-  .SLIDER_CONTAINER {
-    width: 361%;
-  }
-  .product {
-    min-width: 1002px !important;
-  }
-  .gonextBtn {
-    margin-right: 17% !important;
-  }
-
-  .ft-sign {
-    width: 242% !important;
-  }
- 
-  .footer-bottom {
-    width: 374% !important;
-  }
-  .middle-img1 {
-    width: 776px !important;
-  }
-  .middle-img2 {
-    width: 776px !important;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 1000px) {
-  .CONTAINER {
-    padding: 10px !important;
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-    grid-template-rows: 204px 14px 200px;
-  }
-  .footer-img{
-    grid-row: 1 / span 2 !important;
-  }
-  .img-ft {
-    grid-row: 1 / span 3;
-  }
-  .footer-bottom{
-    flex-direction: column !important;
-  }
-  .ft-bottom{
-    width: 100% !important;
-  }
-  .f-img{
-    width: 100% !important;
-  }
- .img2{
-  width: 70% !important;
- }
-}
-@media (max-width: 1100px) {
-  .ft-p1 {
-    font-size: 13px !important;
-  }
-  .ft-p2 {
-    font-size: 13px !important;
-  }
-}
-/* -------- media ended----------------------------------------------- */
 
 body.custom-cursor {
   cursor: none;
@@ -781,29 +494,7 @@ body.custom-cursor {
 }
 
 
-@media (200px < width < 600px) {
-  #Container-navs {
-    width: 100%;
-    cursor: pointer;
-    font-size: 10px !important;
-  }
 
-  #nav {
-    font-size: 10px !important;
-  }
-
-  body {
-    font-size: 10px !important;
-  }
-
-  #IMG_DATA {
-    width: 100px;
-  }
-
-  #first-section {
-    width: 148%;
-  }
-}
 
 body {
   margin: 0;
@@ -1318,17 +1009,6 @@ ul {
   font-weight: 700;
 }
 
-@media (min-width: 1150px) {
-  #nav-contents-container {
-    display: block;
-  }
-
-  .nav-btn {
-    display: none;
-  }
-}
-
-
 h1 {
   color: #333;
   justify-content: center;
@@ -1364,7 +1044,420 @@ p {
   color: black;
 }
 
-@media (max-width: 400px) {
+/* /me write the media querey*/
+
+@media (max-width: 700px) and (min-width:600px) {
+  .Clinical-section {
+    width:252% !important;
+    min-height: 490px;
+  }
+  .Clinical-section .clinical-email input {
+    width: 76%;
+    margin-bottom: 18px;
+  }
+  .Clinical-section .clinical-email button {
+    width: 76%;
+    margin-left: -26px;
+  }
+  .container {
+    margin: 20px;
+    margin-top: 30px;
+  }
+  .container111{
+    width: 172% !important;
+  }
+ 
+  .middle-section {
+  
+    margin-top: 128px;
+    margin-left: 5%;
+  }
+
+  .middle-img-safety {
+    width: 192% !important;
+  }
+  .middle-section-h1 {
+    width: 182% !important;
+    font-size: 26px;
+  }
+  .txt3 {
+    width: 180%;
+    font-size: 17px;
+  }
+  .txt4 {
+    font-size: 17px !important;
+  }
+  .middle-img-Impact {
+    width: 192%;
+  }
+  .middle-section-h1 {
+    width: 182% !important;
+    font-size: 26px;
+  }
+  #missing-out-headline {
+    font-size: 37px;
+    width: 121%;
+  }
+  .slider {
+    width: 100%;
+  }
+  .slider .product {
+    max-width: 495px !important;
+  }
+  .SLIDER_CONTAINER {
+    margin-left: 10%;
+    width: 242%;
+  }
+  .gonextBtn {
+    margin-right: 48% !important;
+  }
+  .ft-sign {
+    width: 85%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .input-email {
+    max-width: 688px;
+  }
+  .social {
+    margin-left: 171px;
+
+    font-size: 31px;
+  }
+  .sign-h2 {
+    font-size: 47px;
+    margin-left: -43px;
+    width: 153%;
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .Email-container {
+    width: 100%;
+  }
+  .input-email {
+    width: 222%;
+  }
+  .footer-bottom {
+    width: 211% !important;
+  }
+  .ft-bt-text {
+    font-size: 9px !important;
+  }
+  .ft-p1 {
+    font-size: 9px !important;
+  }
+  .ft-p2 {
+    font-size: 9px !important;
+  }
+  .CONTAINER {
+    padding: 10px !important;
+    width:238% !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: 210px 1px 200px;
+  }
+  .footer-img{
+    grid-row: 1 / span 2 !important;
+  }
+  #Effect-section {
+    width: 140% !important;
+  }
+  .container111 {
+    width: 122%;
+    width: 125%;
+    margin-left: -27px;
+   
+  }
+  .ft-bottom {
+    font-size: 9px !important;
+    width: 133% !important;
+  }
+  .img-ft {
+    grid-row: 1 / span 3;
+  }
+  .ft-Age {
+    width: 100%;
+  }
+} 
+/* @media(width:414px){
+  .container111{
+    width: 175% !important;
+  }
+} */
+
+@media(max-width:599px) and (min-width: 313px){
+  .Clinical-section {
+    width: 370% !important;
+    min-height: 490px;
+  }
+  .Clinical-section .clinical-email input {
+    width: 76%;
+    margin-bottom: 18px;
+  }
+  .Clinical-section .clinical-email button {
+    width: 76%;
+    margin-left: -26px;
+  }
+  .container {
+    margin: 20px;
+    margin-top: 30px;
+  }
+  .container111{
+    width: 211% !important;
+  }
+
+  /* .container111 .Effect-section {
+
+    width: 157% !important;
+  } */
+
+  /* .Effect-section-main-headline {
+    display: block;
+    width: 158% !important;
+  } */
+
+  /* .main-img {
+    width: 100% !important;
+    border-top-right-radius: 10px;
+  }
+  .main-headline-left {
+    min-height: 150px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+  .main-headline-right {
+    padding: 5%;
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 35px;
+  } */
+  .middle-section {
+    display: flex;
+    margin-top: 128px;
+    margin-left: 5%;
+    width: 200% !important;
+    /* gap: 60%; */
+  }
+
+  .middle-img-safety {
+    width: 93% !important;
+  }
+  .middle-section-h1 {
+    width: 182% !important;
+    font-size: 26px;
+  }
+  .txt3 {
+    width: 100%;
+    font-size: 17px;
+  }
+  .txt4 {
+    font-size: 17px !important;
+  }
+  .middle-img-Impact {
+    width: 93%;
+  }
+  .middle-section-h1 {
+    width: 97% !important;
+    font-size: 26px;
+  }
+  #missing-out-headline {
+    font-size: 37px;
+    width: 312%;
+  }
+  .slider {
+    width: 100%;
+  }
+  .slider .product {
+    min-width: 205px;
+  }
+  .SLIDER_CONTAINER {
+    margin-left: 10%;
+    width: 263% !important;
+  }
+  .gonextBtn {
+    margin-right: 34% !important;
+  }
+  .ft-sign {
+    width: 85%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 307% !important;
+  }
+  .input-email {
+    max-width: 480px;
+  }
+  .social {
+    margin-left: 171px;
+
+    font-size: 31px;
+  }
+  .sign-h2 {
+    font-size: 47px;
+    margin-left: -43px;
+    width: 153%;
+    display: flex;
+    /* justify-content: center !important; */
+  }
+
+  .Email-container {
+    width:31% !important;
+  }
+ 
+  .footer-bottom {
+    width: 295% !important;
+  
+  }
+  .ft-bt-text {
+    font-size: 9px !important;
+  }
+  .ft-p1 {
+    font-size: 9px !important;
+  }
+  .ft-p2 {
+    font-size: 9px !important;
+  }
+  .CONTAINER {
+    padding: 10px !important;
+    width: 166% !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: 210px 1px 200px;
+    width: 342% !important;
+  }
+  .footer-img{
+    grid-row: 1 / span 2 !important;
+  }
+  #Effect-section {
+    width: 140% !important;
+  }
+  .ft-bottom {
+    font-size: 9px !important;
+    /* width: 133% !important; */
+  }
+  .img-ft {
+    grid-row: 1 / span 3;
+  }
+  .ft-Age {
+    width: 100%;
+  }
+}
+@media(min-width:301px) and (max-width:312px){
+  .Clinical-section{
+    width:326%;
+  }
+  .container111{
+    width: 288% !important;
+  }
+  .SLIDER_CONTAINER{
+      width: 330% !important;
+  }
+  .gonextBtn{
+    margin-right: 35% !important;
+  }
+  .ft-sign{
+    width: 873px !important;
+  }
+  .CONTAINER{
+    width: 295% !important;
+}
+.footer-bottom{
+  width: 322% !important;
+}
+}
+@media(min-width:701px) and (max-width:950px){
+  .Clinical-section {
+    width: 145% !important;
+  }
+  .container111 {
+    width: 133% !important;
+}
+.SLIDER_CONTAINER {
+  width: 144% !important;
+}
+.gonextBtn{
+  margin-right: 33% !important;
+}
+.ft-sign{
+  width: 130% !important;
+}
+.CONTAINER{
+  width: 131% !important;
+
+}
+.footer-bottom{
+  width: 138% !important;
+}
+.ft-p1 {
+  font-size: 14px !important;
+}
+.ft-p2 {
+  font-size: 14px !important;
+}
+
+
+}
+/* @media(max-width:300px){
+  .Clinical-section{
+    width:200% !important;
+  }
+  .txt4{
+    width: 1%;
+  }
+  .sign-h2{
+    width: 120% !important;
+  }
+}  */
+/* @media(min-width:301px) {
+  .Clinical-section{
+    width: 318% !important;
+  }
+  .container111 {
+    width: 288% !important;
+}
+.SLIDER_CONTAINER{
+  margin-left: -40px;
+    width: 355%;
+}
+} */
+/* @media (min-width:320px){
+  .Clinical-section{
+    width: 318% !important;
+  }
+  .container111 {
+    width: 288% !important;
+}
+.SLIDER_CONTAINER{
+  margin-left: -40px;
+    width: 355%;
+}
+.ft-sign{
+  
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 82px;
+    width: 308% !important;
+}
+.CONTAINER {
+  margin-top: 5%;
+  padding: 5%;
+  border-top: 1px solid #656060;
+  border-bottom: 1px solid #656060;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 100px 10px 20px;
+  grid-gap: 50px;
+  margin-left: 57px;
+  width: 305%;
+  margin-right: 38px;
+}
+} */
+
+@media (max-width:300px){
   .NAVCONTAINER {
     gap: 0rem;
     padding: 0.5rem;
@@ -1377,13 +1470,376 @@ p {
   #search-icon {
     display: block;
   }
+
+  .Clinical-section{
+      width:  399% !important;
+      margin-top: -9% !important;
+    }
+   
+  .Clinical-section h1{
+     font-size: 81px;
+  }
+  .Clinical-section p {
+    margin: 40px 0px 50px 0px;
+    font-size: 23px !important;
+  }
+  .container111 {
+    width: 105% !important;
+  }
+    .main-headline-right h1 {
+      display: flex;
+      justify-content: flex-start;
+      align-content: flex-start;
+      text-align: left;
+      font-size: 48px;
+      margin-bottom: 20px;
+  }
+  .main-headline-left img {
+    min-height: 400px !important;
+    width: 98% !important;
+  }
+    .main-headline-right{
+      width: 98% !important;
+    }
+    .Effect-section-main-headline{
+      display: flex !important;
+      flex-wrap: wrap;
+    
+      width: 340% !important;
+        margin-left: 61px;
+        margin-top: 45px !important;
+    }
+    .txt1 {
+      line-height: 1.6;
+      display: flex;
+      word-spacing: 7px;
+      font-size: 33px;
+    }
+    .txt2{
+      font-size: 24px !important;
+    }
+    .middle-section{
+      display: block !important;
+      margin: 67px;
+  }
+    .middle-img-safety {
+      width: 1070px !important;
+    }
+    .middle-img-Impact{
+      width: 1070px !important;
+    }
+    .middle-section-h1 {
+    font-size: 45px !important;
+    width: 292% !important;
+    }
+    .txt3{
+      width: 1072px !important;
+      font-size: 38px !important;
+    }
+    .txt4{
+      font-size: 34px !important;
+    }
+    #missing-out-headline{
+      width: 1334px !important;
+      font-size: 66px !important;
+   }
+      .slider .product {
+          min-width: 710px !important;
+          min-height: 581px !important;
+         }
+    .slider{
+      width: 71% !important;
+    }
+    .SLIDER_CONTAINER {
+      margin-left: 16%;
+      width: 342% !important;
+      max-height: 781px !important;
+
+  }
+    .slider .product img {
+      width: 74% !important;
+      height: 100% !important;
+    }
+  
+    .gonextBtn{
+      margin-right: 45% !important;
+    }
+    
+    .product .img{
+      width: 32% !important;
+  
+    }
+    .ft-sign {
+      margin-left: 26% !important;
+      display: flex !important;
+      flex-direction: column !important;
+      width: 232% !important;
+  }
+  .sign-h2{
+    font-size: 67px;
+    font-weight: 700;
+    text-align: center;
+  }
+    
+  .CONTAINER {
+    width: 282vh !important;
+    height: 142vh !important;
+    margin-top: 5%;
+    padding: 5%;
+    border-top: 1px solid #656060;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: 185px 272px 82px;
+    grid-gap: 137px !important;
+    column-gap: 7px !important;
+    margin-right: 38px;
+    margin-left: 5px;
+  }
+   .footer-bottom{
+    display: block !important;
+          width: 339% !important;
+          margin-left: 1px !important;
+    
+   }
+  
+   .ft-p1 {
+    font-size: 24px !important;
+   }
+   .ft-p2{
+    font-size: 24px !important;
+   }
+   .ft-p3{
+    font-size: 26px;
+
+   }
+}
+@media(min-width:251px){
+  .middle-img-safety {
+    /* width: 883px !important; */
+}
+.middle-img-Impact{
+  /* width: 883px !important; */
+}
+.middle-section-h1{
+  /* width: 234% !important; */
+  
+}
+.txt3 {
+  /* width: 883px !important; */
+}
+#missing-out-headline {
+  /* width: 1019px !important; */
+}
+/* .ft-sign{
+  width: 355% !important;
+}
+.input-email{
+  width: 850px;
+} */
+}
+/* @media(min-width:301px)and (max-width:3px){
+  .Clinical-section {
+    width: 334% !important;
+  }
+  .container111 {
+    width: 294% !important;
+}
+} */
+
+@media(max-width:200px){
+  .NAVCONTAINER {
+    gap: 0rem;
+    padding: 0.5rem;
+  }
+
+  .resp-icons {
+    display: none;
+  }
+
+  #search-icon {
+    display: block;
+  }
+
+  .Clinical-section{
+      width:  399% !important;
+      margin-top: -9% !important;
+    }
+   
+  .Clinical-section h1{
+     font-size: 81px;
+  }
+  .Clinical-section p {
+    margin: 40px 0px 50px 0px;
+    font-size: 23px !important;
+  }
+  .container111 {
+    width: 105% !important;
+  }
+    .main-headline-right h1 {
+      display: flex;
+      justify-content: flex-start;
+      align-content: flex-start;
+      text-align: left;
+      font-size: 48px;
+      margin-bottom: 20px;
+  }
+  .main-headline-left img {
+    min-height: 400px !important;
+    width: 98% !important;
+  }
+    .main-headline-right{
+      width: 98% !important;
+    }
+    .Effect-section-main-headline{
+      display: flex !important;
+      flex-wrap: wrap;
+    
+      width: 268% !important;
+        margin-left: 61px;
+        margin-top: 45px !important;
+    }
+    .txt1 {
+      line-height: 1.6;
+      display: flex;
+      word-spacing: 7px;
+      font-size: 33px;
+    }
+    .txt2{
+      font-size: 24px !important;
+    }
+    .middle-section{
+      display: block !important;
+      margin: 67px;
+  }
+    .middle-img-safety {
+      width: 170% !important;
+    }
+    .middle-img-Impact{
+      width: 170% !important;
+    }
+    .middle-section-h1 {
+    font-size: 45px !important;
+    width: 182% !important;
+    }
+    .txt3{
+      width: 678px !important;
+      font-size: 38px !important;
+    }
+    .txt4{
+      
+      font-size: 34px !important;
+    }
+    #missing-out-headline{
+      width: 845px !important;
+      font-size: 48px !important;
+   }
+      .slider .product {
+          min-width: 710px !important;
+          min-height: 581px !important;
+         }
+    .slider{
+      width: 101% !important;
+    }
+    .SLIDER_CONTAINER {
+      margin-left: 16%;
+      width: 342% !important;
+      max-height: 781px !important;
+
+  }
+    .slider .product img {
+      width: 74% !important;
+      height: 100% !important;
+    }
+  
+    .gonextBtn{
+      margin-right: 48%!important;
+
+    }
+    
+    .product .img{
+      width: 32% !important;
+  
+    }
+    .ft-sign {
+      margin-left: 26% !important;
+      display: flex !important;
+      flex-direction: column !important;
+      width: 338% !important;
+    
+  }
+  .sign-h2{
+    font-size: 67px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .input-email{
+    width: 106% !important;
+  }
+    
+  .CONTAINER {
+    width: 217vh !important;
+    height: 142vh !important;
+    margin-top: 5%;
+    padding: 5%;
+    border-top: 1px solid #656060;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: 185px 272px 82px;
+    grid-gap: 137px !important;
+    column-gap: 7px !important;
+    margin-right: 38px;
+    margin-left: -28px;
+  }
+   .footer-bottom{
+    display: block !important;
+          width: 339% !important;
+          margin-left: 1px !important;
+    
+   }
+  
+   .ft-p1 {
+    font-size: 24px !important;
+   }
+   .ft-p2{
+    font-size: 24px !important;
+   }
+   .ft-p3{
+    font-size: 26px;
+
+   }
 }
 
-@media (max-width: 700px) {
-  #science-heading {
-    font-size: 1.75rem;
+
+@media (min-width: 1150px) {
+  #nav-contents-container {
+    display: block;
+  }
+
+  .nav-btn {
+    display: none;
   }
 }
+
+@media (min-width: 500px) and (max-width:570px) {
+  .middle-img1{
+    width: 615px !important;
+  }
+  .middle-img2{
+    width: 615px !important;
+  }
+
+  .CONTAINER {
+    width: 298% !important;
+  }
+  .SLIDER_CONTAINER {
+    width: 155%;
+}
+
+.gonextBtn{
+  margin-right: 429px !important;
+}
+}
+
 
 @media (max-width: 1000px) {
   .image,
@@ -1394,8 +1850,10 @@ p {
   .container {
     flex-direction: column;
   }
+   
 }
-* Footer code */ .footer {
+
+ .footer {
   padding: 40px;
   background-color: #ffffff;
 }

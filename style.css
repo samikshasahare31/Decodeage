@@ -1044,7 +1044,7 @@ p {
   color: black;
 }
 
-/* /me write the media querey*/
+/* / media querey*/
 
 @media (max-width: 700px) and (min-width:600px) {
   .Clinical-section {
@@ -1181,11 +1181,6 @@ p {
     width: 100%;
   }
 } 
-/* @media(width:414px){
-  .container111{
-    width: 175% !important;
-  }
-} */
 
 @media(max-width:599px) and (min-width: 313px){
   .Clinical-section {
@@ -1208,32 +1203,7 @@ p {
     width: 211% !important;
   }
 
-  /* .container111 .Effect-section {
-
-    width: 157% !important;
-  } */
-
-  /* .Effect-section-main-headline {
-    display: block;
-    width: 158% !important;
-  } */
-
-  /* .main-img {
-    width: 100% !important;
-    border-top-right-radius: 10px;
-  }
-  .main-headline-left {
-    min-height: 150px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0px;
-  }
-  .main-headline-right {
-    padding: 5%;
-    width: 100%;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 10px;
-    margin-bottom: 35px;
-  } */
+ 
   .middle-section {
     display: flex;
     margin-top: 128px;
@@ -1275,10 +1245,10 @@ p {
   }
   .SLIDER_CONTAINER {
     margin-left: 10%;
-    width: 263% !important;
+    width: 301% !important;
   }
   .gonextBtn {
-    margin-right: 34% !important;
+    margin-right: 10% !important;
   }
   .ft-sign {
     width: 85%;
@@ -1358,6 +1328,9 @@ p {
   .gonextBtn{
     margin-right: 35% !important;
   }
+  #missing-out-headline{
+    width: 324%!important;
+  }
   .ft-sign{
     width: 873px !important;
   }
@@ -1400,62 +1373,9 @@ p {
 
 
 }
-/* @media(max-width:300px){
-  .Clinical-section{
-    width:200% !important;
-  }
-  .txt4{
-    width: 1%;
-  }
-  .sign-h2{
-    width: 120% !important;
-  }
-}  */
-/* @media(min-width:301px) {
-  .Clinical-section{
-    width: 318% !important;
-  }
-  .container111 {
-    width: 288% !important;
-}
-.SLIDER_CONTAINER{
-  margin-left: -40px;
-    width: 355%;
-}
-} */
-/* @media (min-width:320px){
-  .Clinical-section{
-    width: 318% !important;
-  }
-  .container111 {
-    width: 288% !important;
-}
-.SLIDER_CONTAINER{
-  margin-left: -40px;
-    width: 355%;
-}
-.ft-sign{
-  
-    display: flex;
-    justify-content: space-between;
-    margin-left: 70px;
-    margin-right: 82px;
-    width: 308% !important;
-}
-.CONTAINER {
-  margin-top: 5%;
-  padding: 5%;
-  border-top: 1px solid #656060;
-  border-bottom: 1px solid #656060;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 100px 10px 20px;
-  grid-gap: 50px;
-  margin-left: 57px;
-  width: 305%;
-  margin-right: 38px;
-}
-} */
+
+
+
 
 @media (max-width:300px){
   .NAVCONTAINER {
@@ -1613,38 +1533,7 @@ p {
 
    }
 }
-@media(min-width:251px){
-  .middle-img-safety {
-    /* width: 883px !important; */
-}
-.middle-img-Impact{
-  /* width: 883px !important; */
-}
-.middle-section-h1{
-  /* width: 234% !important; */
-  
-}
-.txt3 {
-  /* width: 883px !important; */
-}
-#missing-out-headline {
-  /* width: 1019px !important; */
-}
-/* .ft-sign{
-  width: 355% !important;
-}
-.input-email{
-  width: 850px;
-} */
-}
-/* @media(min-width:301px)and (max-width:3px){
-  .Clinical-section {
-    width: 334% !important;
-  }
-  .container111 {
-    width: 294% !important;
-}
-} */
+
 
 @media(max-width:200px){
   .NAVCONTAINER {
@@ -1818,7 +1707,23 @@ p {
   .nav-btn {
     display: none;
   }
+  .Clinical-section{
+    width:102% !important;
+ }
 }
+@media(min-width:1000px){
+  .Clinical-section{
+    width:102% !important;
+ }
+}
+
+@media(min-width:1148px){
+  .Clinical-section{
+    width:102% !important;
+ }
+}
+
+
 
 @media (min-width: 500px) and (max-width:570px) {
   .middle-img1{
@@ -1851,6 +1756,14 @@ p {
     flex-direction: column;
   }
    
+}
+@media(width:1400px){
+  .Clinical-section{
+   width:102% !important;
+}
+.gonextBtn{
+  margin-right: 10% !important;
+}
 }
 
  .footer {
